@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact V5</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/noui/nouislider.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Project & Workforce Demand
+				</span>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Please Type The Project ID">
+					<span class="label-input100">Project ID *</span>
+					<input class="input100" type="text" name="project_id" id="project_id" placeholder="Enter The Project ID">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter The Start Date (DD.MM.YYYY)">
+					<span class="label-input100">Start Date *</span>
+					<input class="input100" type="text" name="start_date" placeholder="Enter The Start Date ">
+				</div>
+				
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Budget">
+					<span class="label-input100">Budget *</span>
+					<input class="input100" type="float" id="budget" name="budget" placeholder="Enter Your Budget ">
+				</div>
+				
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter The End Date (DD.MM.YYYY)">
+					<span class="label-input100">End Date</span>
+					<input class="input100" type="text" name="end_date" id="end_date" placeholder="Enter The End Date">
+				</div>
+				
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Workforce Needed *</span>
+					<div>
+						<select class="js-select2" name="workforce" id="workforce">
+							<option>Java Developer</option>
+							<option>SAP ABAP Developer</option>
+							<option>Python Developer</option>
+							<option>Javascript Developer</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter The Amount">
+					<span class="label-input100">Amount</span>
+					<input class="input100" type="number" name="amount" id="amount" placeholder="Enter Amount">
+				</div>
+
+				<div class="wrap-input100_confirm rs1-wrap-input100" data-validate = "Enter The Amount">
+					<button class="contact100-form-btn" id="confirm">
+						<span>
+							Confirm
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+				<span id="result" class="wrap-input100_confirm rs1-wrap-input100"></span>
+				<!--<div class="wrap-input100 bg1 rs1-wrap-input100">-->
+					<!--<span  class="label-input100">Message</span>-->
+					<!--<textarea  class="wrap-input100 bg1 rs1-wrap-input100" id="result" ></textarea>-->
+				<!--</div>-->
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							Push Request
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+					<br/>
+				</div>
+			</form>
+		</div>
+	</div>
+
+<!--===============================================================================================-->
+
+<!--<p id="result"></p>-->
+ <script>
+    /*function change_on_projectid(){    
+		document.getElementById('project_id').addEventListener("change", function(){
+        //do something
+		//document.getElementById('amount').innerHTML = "100";
+		document.getElementById("amount").value = "100";
+		//document.getElementById("amount").setState({value: 'another random text'})
+        });
+    };
+	function the_change(){
+		document.getElementById("end_date").value = "100";
+	};*/
+	//https://stackoverflow.com/questions/28798828/autofill-input-with-another-input-values
+	$("#project_id").keyup(function(){
+		update();
+	});
+
+	function update() {
+	  $("#end_date")."1000000000";
+	}
+ 
+ </script>
+<script>
+	function print_output() {
+		var budget = document.getElementById('budget').value;
+		var workforce = document.getElementById('workforce').value;
+		//var lname = document.getElementById('last_name').value;
+	 
+		//var html = 'Hello <b>' + fname + '</b> Costs are 1000€';
+		if(budget==15000 && workforce=="Java Developer"){
+			document.getElementById('result').innerHTML = "<textarea"+" >Costs are 12000€</textarea>";
+		}
+		else if(budget==15000 && workforce=="Python Developer"){
+			document.getElementById('result').innerHTML = "<textarea"+" >Costs are 13500€</textarea>";
+		}
+		else{
+			document.getElementById('result').innerHTML = "";
+		}
+		//document.getElementById('result').innerHTML = "Costs are 13500€";
+	}
+	 
+	document.getElementById('confirm').addEventListener('click', print_output);
+
+</script>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+
+
+			$(".js-select2").each(function(){
+				$(this).on('select2:close', function (e){
+					if($(this).val() == "Please chooses") {
+						$('.js-show-service').slideUp();
+					}
+					else {
+						$('.js-show-service').slideUp();
+						$('.js-show-service').slideDown();
+					}
+				});
+			});
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/noui/nouislider.min.js"></script>
+	<script>
+	    var filterBar = document.getElementById('filter-bar');
+
+	    noUiSlider.create(filterBar, {
+	        start: [ 1500, 3900 ],
+	        connect: true,
+	        range: {
+	            'min': 1500,
+	            'max': 7500
+	        }
+	    });
+
+	    var skipValues = [
+	    document.getElementById('value-lower'),
+	    document.getElementById('value-upper')
+	    ];
+
+	    filterBar.noUiSlider.on('update', function( values, handle ) {
+	        skipValues[handle].innerHTML = Math.round(values[handle]);
+	        $('.contact100-form-range-value input[name="from-value"]').val($('#value-lower').html());
+	        $('.contact100-form-range-value input[name="to-value"]').val($('#value-upper').html());
+	    });
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
