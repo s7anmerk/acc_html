@@ -1,6 +1,18 @@
 
 
+.twospans {
+  /*USE THIS TO HAVE MULTIPLE BUTTONS IN ONE LINE*/
+  width: calc((100% - 30px) / 3);
+}
 
+.left_span{
+	width: calc((100% - 30px) / 2);
+	display: inline-block
+}
+.right_span{
+	width: calc((100% - 30px) / 2);
+	display: inline-block
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
@@ -181,7 +193,7 @@ iframe {
 }
 
 .wrap-contact100 {
-  width: 920px;
+  width: 90%;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -193,7 +205,8 @@ iframe {
 [  ]*/
 
 .contact100-form {
-  width: 100%;
+  width: 90%;*/
+  /*width: calc((100% - 30px) / 2);*/
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -202,6 +215,7 @@ iframe {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 
 .contact100-form-title {
   display: block;
@@ -224,8 +238,16 @@ iframe {
   position: relative;
   border: 1px solid #e6e6e6;
   border-radius: 13px;
-  padding: 10px 30px 9px 22px;
-  margin-bottom: 20px;
+  padding: 5px 30px 3px 22px;
+  margin-bottom: 15px;
+}
+
+.wrap-input100-morebuttons {
+  position: relative;
+  border: 1px solid #e6e6e6;
+  border-radius: 13px;
+  padding: 5px 30px 3px 22px;
+  margin-bottom: 15px;
 }
 
 .wrap-input100_confirm {
@@ -236,7 +258,8 @@ iframe {
 }
 
 .rs1-wrap-input100 {
-  width: calc((100% - 30px) / 2);
+  /*USE THIS TO HAVE MULTIPLE BUTTONS IN ONE LINE
+  /*width: calc((100% - 30px) / 2);*/
 }
 
 .label-input100 {
@@ -354,8 +377,12 @@ textarea.input100 {
     padding: 62px 15px 90px 15px;
   }
 
-  .wrap-input100 {
+  .wrap-input100  {
     padding: 10px 10px 9px 10px;
+  }
+  
+  .wrap-input100-morebuttons{
+	  padding: 10px 10px 9px 10px;
   }
 }
 
@@ -572,11 +599,11 @@ textarea.input100 {
   line-height: 1.2;
 }
 
-.wrap-input100 .dropDownSelect2 .select2-container--open {
+.wrap-input100 .dropDownSelect2 .select2-container--open .wrap-input100-morebuttons {
   width: 100% !important;
 }
 
-.wrap-input100 .dropDownSelect2 .select2-dropdown {
+.wrap-input100 .dropDownSelect2 .select2-dropdown .wrap-input100-morebuttons {
   width: calc(100% + 2px) !important;
 }
 
