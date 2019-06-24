@@ -1,3 +1,42 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: right;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  /*margin: 5px;*/
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
 
 
 .twospans {
@@ -205,7 +244,7 @@ iframe {
 [  ]*/
 
 .contact100-form {
-  width: 90%;*/
+  width: 95%;
   /*width: calc((100% - 30px) / 2);*/
   display: -webkit-box;
   display: -webkit-flex;
@@ -238,8 +277,8 @@ iframe {
   position: relative;
   border: 1px solid #e6e6e6;
   border-radius: 13px;
-  padding: 5px 30px 3px 22px;
-  margin-bottom: 15px;
+  padding: 5px 22px 3px 22px;
+  margin-bottom: 7px;
 }
 
 .wrap-input100-morebuttons {
@@ -247,7 +286,7 @@ iframe {
   border: 1px solid #e6e6e6;
   border-radius: 13px;
   padding: 5px 30px 3px 22px;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
 }
 
 .wrap-input100_confirm {
@@ -611,7 +650,7 @@ textarea.input100 {
 [ Restyle Radio ]*/
 .wrap-contact100-form-radio {
   width: 100%;
-  padding: 15px 25px 0 25px;
+  padding: 15px 25px 0px 25px;
 }
 
 .contact100-form-radio {
@@ -758,6 +797,6 @@ textarea.input100 {
   }
 
   .wrap-contact100-form-radio {
-    padding: 15px 0px 0 0px;
+    padding: 15px 0px 0px 0px;
   }
 }
