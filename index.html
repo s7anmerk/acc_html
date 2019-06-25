@@ -159,6 +159,21 @@
 					<div class="wrap-input100 bg1">
 						<div>
 							<span class="label-input100">Skill 1 *</span>
+							<datalist id="languages">
+							  <option value="HTML">
+							  <option value="CSS">
+							  <option value="JavaScript">
+							  <option value="Java">
+							  <option value="Ruby">
+							  <option value="PHP">
+							  <option value="Go">
+							  <option value="Erlang">
+							  <option value="Python">
+							  <option value="C">
+							  <option value="C#">
+							  <option value="C++">
+							</datalist>
+							<input class="input100" type="text" id="skill1" list="languages" name="skill1" placeholder="">
 							<fieldset class="rating">
 								<input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5"></label>
 								<input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half"></label>
@@ -176,6 +191,7 @@
 					<div class="wrap-input100 bg1">
 						<div>
 							<span class="label-input100">Skill 2 *</span>
+							<input class="input100" type="text" id="skill2" list="languages" name="skill2" placeholder="">
 							<fieldset class="rating">
 								<input type="radio" id="astar5" name="arating" value="5" /><label class = "full" for="astar5" ></label>
 								<input type="radio" id="astar4half" name="arating" value="4 and a half" /><label class="half" for="astar4half" ></label>
@@ -193,6 +209,7 @@
 					<div class="wrap-input100 bg1">
 						<div>
 							<span class="label-input100">Skill 3 *</span>
+							<input class="input100" type="text" id="skill3" list="languages" name="skill3" placeholder="">
 							<fieldset class="rating">
 								<input type="radio" id="bstar5" name="brating" value="5" /><label class = "full" for="bstar5"></label>
 								<input type="radio" id="bstar4half" name="brating" value="4 and a half" /><label class="half" for="bstar4half"></label>
@@ -217,7 +234,14 @@
 						<span class="label-input100">Loaded Cost Rate [$/h]</span>
 						<input class="input100" type="float" name="cost_rate" id="cost_rate" placeholder="Enter The Cost Rate">
 					</div>
-					
+
+					<div class="wrap-input100 validate-input bg1">
+						<div>
+							<span class="label-input100">Allow Substitute Role</span>
+							<input class="input100" type="checkbox" name="sub" id="sub">
+						</div>
+					</div>
+
 				</form>
 				
 			</span>
