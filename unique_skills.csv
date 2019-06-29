@@ -1,0 +1,100 @@
+;Skill;Category;Capability;Specialty;Career Track;SAP ID Level 1;SAP ID Level 2;SAP ID Level 3;SAP ID Level 4;Talent Segment
+0;Technology;Solution Planning & Delivery;Program Project Mgmt;Client Delivery & Operations;70001969;70001962;80008323;0;Program, Project & Service Mgmt;
+1;Technology;Packaged Software & Apps;SAP;SAP-Oil & Gas;Client Delivery & Operations;70001969;70001959;80008020;80008360;Business & Technology Integration
+3;Function;Marketing, Communication, Sales & Service Transformation;Customer Service;Client Delivery & Operations;70001966;70001958;80007970;0;Business Process Delivery;
+5;Technology;Platforms, Tech Components & Arch;Technology Architectures;Client Delivery & Operations;70001969;70001960;80008031;0;Program, Project & Service Mgmt;
+6;Technology;Platforms, Tech Components & Arch;Application Architectures;Client Delivery & Operations;70001969;70001960;80009673;0;IT Operations;
+7;Technology;Platforms, Tech Components & Arch;Microsoft Platform;MS Infrastructure and IO;Client Delivery & Operations;70001969;70001960;80008005;80008245;IT Operations
+8;Function;Industry Processes;Software Processes;Client Delivery & Operations;70001966;70001956;80008025;0;IT Operations;
+9;Technology;Packaged Software & Apps;SAP;SAP Financial Accntng & Oprtns;Client Delivery & Operations;70001969;70001959;80008020;80008355;Technology Architecture
+10;Technology;Platforms, Tech Components & Arch;Digital & Content;Enterprise Content Management;Client Delivery & Operations;70001969;70001960;80008783;80008133;Technology Architecture
+11;Technology;Packaged Software & Apps;SAP;SAP ERP Sales;Client Delivery & Operations;70001969;70001959;80008020;80010230;Software Engineering
+12;Technology;Platforms, Tech Components & Arch;Microsoft Platform;Microsoft Web Development;Client Delivery & Operations;70001969;70001960;80008005;80008238;IT Operations
+14;Technology;Packaged Software & Apps;SAP;Client Delivery & Operations;70001969;70001959;80008020;0;Software Engineering;
+15;Function;Client Relationship Management;Sales Execution;Business Development;Client Delivery & Operations;70001966;70001951;80008019;80008061;Software Engineering
+16;Function;No Function Specialty;Client Delivery & Operations;70001966;0;0;0;Software Engineering;;
+17;Technology;Solution Planning & Delivery;Business Operations Mgmt;Client Delivery & Operations;70001969;70001962;80008064;0;Software Engineering;
+18;Technology;Platforms, Tech Components & Arch;Java Technology Platform;Java App Design & Architecture;Client Delivery & Operations;70001969;70001960;80007997;80012439;Software Engineering
+19;Technology;Packaged Software & Apps;Oracle;Client Delivery & Operations;70001969;70001959;80008008;0;Software Engineering;
+20;Function;Client Relationship Management;Customer Service Delivery;Client Delivery & Operations;70001966;70001951;80007971;0;Software Engineering;
+22;Technology;Platforms, Tech Components & Arch;Microsoft Platform;Client Delivery & Operations;70001969;70001960;80008005;0;Software Engineering;
+23;Technology;Solution Planning & Delivery;Testing;Functional Testing;Client Delivery & Operations;70001969;70001962;80008034;80008162;Program, Project & Service Mgmt
+24;Technology;Solution Planning & Delivery;Delivery Lifecycle;Application Maintenance;Client & Market;70001969;70001962;80007974;80008047;Software Engineering
+28;Technology;Packaged Software & Apps;SAP;SAP ERP Procurement;Client Delivery & Operations;70001969;70001959;80008020;80010232;Software Engineering
+37;Function;Accenture Interactive;Strategy & Experience;Marketing & Digital Strategy;Client Delivery & Operations;70001966;70002150;80010750;80010796;Analytics
+44;Technology;Packaged Software & Apps;SAP;SAP for Banking;Client Delivery & Operations;70001969;70001959;80008020;80008350;Management Consulting
+46;Function;Enterprise;Geographic Services;Client Delivery & Operations;70001966;70001953;80007982;0;Software Engineering;
+48;Technology;Solution Planning & Delivery;Engagement Management;Program Control Services;Client & Market;70001969;70001962;80011175;80008320;Software Engineering
+49;Technology;Packaged Software & Apps;SAP;SAP CRM Sales & Service;Client Delivery & Operations;70001969;70001959;80008020;80008353;Software Engineering
+51;Function;Enterprise;Business App Delivery;Business Application Support;Client Delivery & Operations;70001966;70001953;80007958;80008123;Business Process Delivery
+53;Function;Industry Processes;Capital Markets Processes;Wealth & Asset Mgmt Processes;Client Delivery & Operations;70001966;70001956;80007961;80008413;Business Process Delivery
+55;Technology;Platforms, Tech Components & Arch;C/C++;Client Delivery & Operations;70001969;70001960;80007959;0;Business Process Delivery;
+56;Technology;Packaged Software & Apps;Industry Applications-FS;Guidewire;Client Delivery & Operations;70001969;70001959;80008486;80014100;Business Process Delivery
+64;Technology;Infrastructure Services;Cloud Operations;Cloud Administration;Client Delivery & Operations;70001969;70001957;80015750;80015752;Software Engineering
+69;Technology;Solution Planning & Delivery;Testing;Client Delivery & Operations;70001969;70001962;80008034;0;Software Engineering;
+70;Technology;Packaged Software & Apps;Industry Applications-PRD;PRD-Industry Applications;Client Delivery & Operations;70001969;70001959;80008483;80008319;Software Engineering
+73;Technology;Platforms, Tech Components & Arch;Microsoft Platform;ASP.NET;Client Delivery & Operations;70001969;70001960;80008005;80008038;Software Engineering
+80;Function;Cross-Function;Analytics;Big Data Analytics;Client Delivery & Operations;70001966;70001952;80008444;80010525;Business & Technology Integration
+81;Technology;Infrastructure Services;Data Center Operations;UNIX Platform Management;Client Delivery & Operations;70001969;70001957;80012017;80012022;Business & Technology Integration
+86;Technology;Platforms, Tech Components & Arch;Java Technology Platform;Java Enterprise - Back End;Client Delivery & Operations;70001969;70001960;80007997;80012437;Business & Technology Integration
+88;Technology;Packaged Software & Apps;Industry Applications-HPS;APIP Portfolio and Project Management;Client Delivery & Operations;70001969;70001959;80008484;80014850;Software Engineering
+89;Technology;Solution Planning & Delivery;Agile;Client Delivery & Operations;70001969;70001962;80008752;0;Software Engineering;
+92;Technology;Infrastructure Services;Cloud Operations;Cloud Architecture;Client Delivery & Operations;70001969;70001957;80015750;80015751;Business & Technology Integration
+111;Technology;Solution Planning & Delivery;Agile;Agile Delivery Leadership;Client Delivery & Operations;70001969;70001962;80008752;80009253;Business Process Delivery
+112;Technology;Infrastructure Services;Service Desk Mgmt;Service Desk Support Functions;Client Delivery & Operations;70001969;70001957;80011940;80011831;Business Process Delivery
+126;Function;Enterprise;OperationsMgmt&Improvemnt;Program Management Operations;Client Delivery & Operations;70001966;70001953;80008007;80008322;Business Process Delivery
+127;Function;Enterprise;OperationsMgmt&Improvemnt;Process Management;Client Delivery & Operations;70001966;70001953;80008007;80008306;Business Process Delivery
+135;Technology;Solution Planning & Delivery;Delivery Lifecycle;Analyze Solution;Client Delivery & Operations;70001969;70001962;80007974;80008044;Software Engineering
+151;Technology;Platforms, Tech Components & Arch;Data & Analytics;Business Intelligence;Client Delivery & Operations;70001969;70001960;80007993;80008062;Business Advisory
+165;Technology;Infrastructure Services;Network Operations;Client Delivery & Operations;70001969;70001957;80011941;0;Business Process Delivery;
+177;Technology;Solution Planning & Delivery;Delivery Lifecycle;Client Delivery & Operations;70001969;70001962;80007974;0;Program, Project & Service Mgmt;
+210;Technology;Infrastructure Services;Security Consulting & Implementation;Security Monitoring & Analytics;Client & Market;70001969;70001957;80008021;80016331;Business Process Delivery
+219;Technology;Solution Planning & Delivery;Delivery Lifecycle;Design Solution;Client & Market;70001969;70001962;80007974;80008122;Software Engineering
+220;Technology;Solution Planning & Delivery;Quality;Quality Assurance;Client & Market;70001969;70001962;80008013;80008326;Software Engineering
+237;Technology;Platforms, Tech Components & Arch;Microsoft Platform;Microsoft BI;Client & Market;70001969;70001960;80008005;80008242;Software Engineering
+238;Technology;Platforms, Tech Components & Arch;Java Technology Platform;Client & Market;70001969;70001960;80007997;0;Software Engineering;
+242;Function;Enterprise;Finance Operations;Financial Services;Client & Market;70001966;70001953;80007979;80008150;ERP
+243;Technology;Platforms, Tech Components & Arch;Hostcentric Platform;Mainframe;Client & Market;70001969;70001960;80007987;80008221;ERP
+249;Function;Client Relationship Management;Customer Service Delivery;Customer Contact Services;Client & Market;70001966;70001951;80007971;80008108;Business Process Delivery
+260;Function;Enterprise;Tech Vision&Architecture;Application Architectures;Client & Market;70001966;70001953;80008030;80008048;Business Process Delivery
+288;Technology;Platforms, Tech Components & Arch;Data Architectures;Enterprise & Integration Data;Client Delivery & Operations;70001969;70001960;80010227;80010275;Business & Technology Integration
+289;Function;Enterprise;Records Management;Client Delivery & Operations;70001966;70001953;80008917;0;Business & Technology Integration;
+295;Function;Cross-Function;Mgmt Cons X Function;Client & Market;70001966;70001952;80008003;0;Business Advisory;
+296;Industry;Communications, Media & Technology;CMT;CMT-Cross Industry;Client Delivery & Operations;70001967;70002048;80008600;80008754;Account Leadership
+297;Technology;Platforms, Tech Components & Arch;Microsoft Platform;Microsoft Office Suite;Client Delivery & Operations;70001969;70001960;80008005;80012852;Business Process Delivery
+298;Industry;No Industry Specialty;Client Delivery & Operations;70001967;0;0;0;Business Process Delivery;;
+299;Technology;Platforms, Tech Components & Arch;Java Technology Platform;Java Enterprise - Integration;Client Delivery & Operations;70001969;70001960;80007997;80012438;Business Process Delivery
+300;Technology;Packaged Software & Apps;Oracle;Oracle Hyperion;Client Delivery & Operations;70001969;70001959;80008008;80008269;Business Process Delivery
+306;Technology;Platforms, Tech Components & Arch;Platform Architectures;Web Content Management Platforms;Client Delivery & Operations;70001969;70001960;80009707;80009716;Business Process Delivery
+309;Technology;Infrastructure Services;Cloud Operations;Cloud Tools and Automation;Client Delivery & Operations;70001969;70001957;80015750;80015753;Business Process Delivery
+310;Technology;Solution Planning & Delivery;Testing;Test Strategy and Management;Client Delivery & Operations;70001969;70001962;80008034;80009610;Business Process Delivery
+311;Function;Client Relationship Management;Assets & Offering Mgmt;Client Delivery & Operations;70001966;70001951;80007956;0;Business Process Delivery;
+312;Technology;Platforms, Tech Components & Arch;Microsoft Platform;Experience Design;Client Delivery & Operations;70001969;70001960;80008005;80013329;Business Process Delivery
+313;Function;Enterprise;Technology Engineering;Data Engineering;Client Delivery & Operations;70001966;70001953;80008032;80008113;Business Process Delivery
+314;Industry;Resources;RES;Resources;Client Delivery & Operations;70001967;70002047;80008593;80008758;Business Process Delivery
+318;Technology;Infrastructure Services;Managed Security Services;Infrastructure Security Management;Client Delivery & Operations;70001969;70001957;80012124;80014801;Business Process Delivery
+319;Industry;Financial Services;FS-Banking;ABS-Core Banking;Client Delivery & Operations;70001967;70002046;80008588;80008617;Business Process Delivery
+322;Industry;Resources;RES-Utilities;Cross-Utilities;Client Delivery & Operations;70001967;70002047;80008596;80008761;Business Process Delivery
+323;Industry;Communications, Media & Technology;CMT - Comms & Media;Digital Video;Client Delivery & Operations;70001967;70002048;80008597;80011766;Business Process Delivery
+346;Technology;Platforms, Tech Components & Arch;Data & Analytics;Data Integration;Client Delivery & Operations;70001969;70001960;80007993;80010777;Business Process Delivery
+348;Industry;Products;Products-Industrial;Rail and Transit;Client & Market;70001967;70002044;80013675;80008780;Business Process Delivery
+356;Technology;Infrastructure Services;Network Implementation;Client & Market;70001969;70001957;80008006;0;Business Process Delivery;
+359;Industry;Resources;RES-Energy;Oil & Gas Upstream;Client & Market;70001967;70002047;80008594;80008639;Software Engineering
+385;Function;Finance & Enterprise Performance;Digital Finance;Enterprise Performance Mgmt;Client Delivery & Operations;70001966;70001954;80007976;80008136;Business Process Delivery
+398;Technology;Packaged Software & Apps;Microsoft Business Apps;Microsoft Dynamics AX;Client Delivery & Operations;70001969;70001959;80008004;80008235;Business Process Delivery
+423;Function;Client Relationship Management;Sales Execution;Client Account Development;Client Delivery & Operations;70001966;70001951;80008019;80008077;Business Process Delivery
+436;Technology;Solution Planning & Delivery;Delivery Lifecycle;Build/Develop Solution;Client Delivery & Operations;70001969;70001962;80007974;80008057;Management Consulting
+437;Technology;Infrastructure Services;Data Center Operations;Client Delivery & Operations;70001969;70001957;80012017;0;Management Consulting;
+438;Technology;Platforms, Tech Components & Arch;Application Architectures;Custom App. Archs.;Client Delivery & Operations;70001969;70001960;80009673;80009674;Business & Technology Integration
+439;Technology;Infrastructure Services;IT Asset Configuration Management;IT Hardware Asset Management;Client Delivery & Operations;70001969;70001957;80015926;80015931;Change Enablement
+442;Technology;Platforms, Tech Components & Arch;Data Architectures;Client Delivery & Operations;70001969;70001960;80010227;0;Business Process Delivery;
+443;Function;Enterprise;Resource & LifeCycle Mgmt;Resource Planning & Scheduling;Client Delivery & Operations;70001966;70001953;80008015;80008337;Business Process Delivery
+444;Technology;Platforms, Tech Components & Arch;Mobility Services;Digital Connected Devices;Client Delivery & Operations;70001969;70001960;80009613;80013063;Business Process Delivery
+445;Technology;Platforms, Tech Components & Arch;Microsoft Platform;Microsoft Database Development;Client Delivery & Operations;70001969;70001960;80008005;80008244;Business Process Delivery
+450;Technology;Solution Planning & Delivery;Testing;Test Automation;Client Delivery & Operations;70001969;70001962;80008034;80009608;Software Engineering
+454;Technology;Packaged Software & Apps;SAP;SAP Arch & Infra & Cloud;Client Delivery & Operations;70001969;70001959;80008020;80008349;Software Engineering
+458;Technology;Solution Planning & Delivery;IT Strat & Transformation;Business Technology Transformation;Client Delivery & Operations;70001969;70001962;80007996;80013328;Software Engineering
+459;Technology;Packaged Software & Apps;Oracle;Oracle JDE;Client & Market;70001969;70001959;80008008;80010535;Business & Technology Integration
+468;Technology;Packaged Software & Apps;Oracle;Oracle JDE Technology;Client Delivery & Operations;70001969;70001959;80008008;80008209;Business Process Delivery
+469;Industry;Financial Services;FS-Banking;ABS-Payments;Client Delivery & Operations;70001967;70002046;80008588;80008620;Business Process Delivery
+472;Technology;Packaged Software & Apps;SAP;SAP Data & Development;Client Delivery & Operations;70001969;70001959;80008020;80008354;Software Engineering
