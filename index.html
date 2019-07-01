@@ -270,12 +270,21 @@
 						<input class="input100" type="float" name="cost_rate" id="cost_rate" placeholder="Enter The Cost Rate">
 					</div>
 
-					<div class="wrap-input100 validate-input bg1">
+					<!--<div class="wrap-input100 validate-input bg1">
 						<div>
 							<span class="label-input100">Allow Substitute Role</span>
 							<input class="input100" type="text" list="yes_no" name="sub" id="sub">
 						</div>
+					</div>-->
+
+					<div class="wrap-input100 validate-input bg1">
+						<div>
+							<span class="label-input100">Allow Substitute Role</span>
+							<input class="input100" type="checkbox" name="sub" id="sub">
+						</div>
 					</div>
+
+
 					<div class="wrap-input100_confirm rs1-wrap-input100">
 						<button class="contact100-form-btn" id="confirm">
 							<span>
@@ -348,58 +357,13 @@
 			
 		</div>
 	</div>
-
 	<!--===============================================================================================-->
-	<script>
-		// Get the modal
-		var modal = document.getElementById("myModal");
 
-		// Get the button that opens the modal
-		var btn = document.getElementById("confirm");
-
-		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("close")[0];
-
-		// When the user clicks on the button, open the modal
-		btn.onclick = function() {
-		  modal.style.display = "block";
-
-		var project_id = document.getElementById('project_id').value;
-		if(project_id=="111"){    // budget==15000 && workforce=="Java Developer"
-			document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The role description you just typed in its insufficient to give accurate results. Please be more specific.</p>";
-		}
-		else if(project_id=="222"){
-			document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The project start date is below 60 days which could lead to potential waiting times in the required workforce. Please edit the value or continue anyway with the disclaimer that the required skill could not be found before the project start.creen reader support enabled. To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash </p>";
-		}
-		else if(project_id=="333"){
-			document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The win probability you just typed in is below the minimum for making a request.</p>";
-		}
-		else if(project_id=="444"){
-			document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The loaded cost rate you just typed in does not match any markets rates for that particular skill.</p>";
-		}
-		else{
-			document.getElementById('result_on_modal').innerHTML = "";
-		}
-		}
-
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-		  modal.style.display = "none";
-		}
-
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-		  if (event.target == modal) {
-			modal.style.display = "none";
-		  }
-		}
-	</script>
-	<!--===============================================================================================-->
-	
 	 <script>
 		function project_id_listener(){
 		
 		  var project_id = document.getElementById('project_id').value;
+
 		  if(project_id=="111"){
 
 			  document.getElementById('start_date').value = "12.01.2020";
@@ -532,6 +496,59 @@
 	 
 	 </script>
 
+	<!--===============================================================================================-->
+	<script>
+		// Get the modal
+		var modal = document.getElementById("myModal");
+
+		// Get the button that opens the modal
+		var btn = document.getElementById("confirm");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on the button, open the modal
+		btn.onclick = function() {
+			modal.style.display = "block";
+
+			var project_id = document.getElementById('project_id').value;
+			
+			if(project_id=="111"){    // budget==15000 && workforce=="Java Developer"
+				document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The role description you just typed in its insufficient to give accurate results. Please be more specific.</p>";
+			}
+			else if(project_id=="222"){
+				document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The project start date is below 60 days which could lead to potential waiting times in the required workforce. Please edit the value or continue anyway with the disclaimer that the required skill could not be found before the project start.creen reader support enabled. To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash </p>";
+			}
+			else if(project_id=="333"){
+				document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The win probability you just typed in is below the minimum for making a request.</p>";
+			}
+			else if(project_id=="444"){
+				document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The loaded cost rate you just typed in does not match any markets rates for that particular skill.</p>";
+			}
+			else if(project_id=="000"){
+				document.getElementById('result_on_modal').innerHTML = "<p"+" >All good!</p>";
+			}
+			else{
+				document.getElementById('result_on_modal').innerHTML = "";
+			}
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function(e) {
+			e.preventDefault();
+			modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			event.preventDefault();
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+
+	<!--===============================================================================================-->
 	<!--<script>
 		function print_output() {
 			//var budget = document.getElementById('budget').value;
