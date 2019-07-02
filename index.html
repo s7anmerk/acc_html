@@ -124,6 +124,7 @@
 						<!--<textarea  class="wrap-input100 bg1 rs1-wrap-input100" id="result" ></textarea>-->
 						<span id="result" class="wrap-input100_confirm rs1-wrap-input100"></span>
 					<!--</div>-->
+				<div style="height:696px;"> </div>
 				<div style="align-self: flex-end;" class="wrap-input100_confirm rs1-wrap-input100">
 					<button class="contact100-form-btn" id="confirm">
 						<span>
@@ -286,7 +287,7 @@
 
 
 					<div class="wrap-input100_confirm rs1-wrap-input100">
-						<button class="contact100-form-btn" id="confirm">
+						<button class="contact100-form-btn" id="confirm1">
 							<span>
 								Retrieve Information
 								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
@@ -532,7 +533,8 @@
 				document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The loaded cost rate you just typed in does not match any markets rates for that particular skill.</p>";
 			}
 			else if(project_id=="000"){
-				document.getElementById('result_on_modal').innerHTML = "<p"+" >All good!</p>";
+				//document.getElementById('result_on_modal').innerHTML = "<p"+" >All good!</p>";
+				window.location.href = "dash.html";
 			}
 			else{
 				document.getElementById('result_on_modal').innerHTML = "";
