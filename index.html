@@ -327,28 +327,32 @@
 			  <!-- Modal content -->
 			  <div class="modal-content wrap-contact100">  <!--modal-content-->
 				<span class="close">&times;</span>
-				<span id="result_on_modal"></span>
+				<div class="wrap-input100">
+					<span style="font-family: Montserrat-Black; color: #333333; font-size: 28px; text-align: center;" id="result_on_modal"></span>
+				</div>
 				
-				<span class="left_span">
-					<div class="wrap-input100_confirm rs1-wrap-input100">
-						<button class="contact100-form-btn" id="confirm">
-							<span>
-								Push Request
-								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-							</span>
-						</button>
-					</div>
-				</span>
-				<span class="right_span">
-					<div class="wrap-input100_confirm rs1-wrap-input100">
-						<button class="contact100-form-btn" id="confirm">
-							<span>
-								Review
-								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-							</span>
-						</button>
-					</div>
-				</span>
+				<div>
+					<span class="left_span">
+						<div class="wrap-input100_confirm rs1-wrap-input100">
+							<button onclick="window.location.href = 'dash.html';" class="contact100-form-btn" id="confirm">
+								<span>
+									Push Request
+									<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+								</span>
+							</button>
+						</div>
+					</span>
+					<span class="right_span">
+						<div class="wrap-input100_confirm rs1-wrap-input100">
+							<button class="contact100-form-btn" id="review1">
+								<span>
+									Review
+									<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+								</span>
+							</button>
+						</div>
+					</span>
+				</div>
 				
 			  </div>
 
@@ -506,6 +510,8 @@
 
 		// Get the <span> element that closes the modal
 		var span = document.getElementsByClassName("close")[0];
+		
+		var review_button = document.getElementById("review1");
 
 		// When the user clicks on the button, open the modal
 		btn.onclick = function() {
@@ -535,6 +541,10 @@
 
 		// When the user clicks on <span> (x), close the modal
 		span.onclick = function(e) {
+			e.preventDefault();
+			modal.style.display = "none";
+		}
+		review_button.onclick = function(e) {
 			e.preventDefault();
 			modal.style.display = "none";
 		}
