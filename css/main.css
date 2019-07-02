@@ -311,6 +311,17 @@ iframe {
 /*------------------------------------------------------------------
 [  ]*/
 
+.wrap-input100-login{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #e6e6e6;
+	border-radius: 13px;
+	padding: 5px 30px 3px 22px;
+	width:50%;
+	margin-bottom: 7px;
+}
 .wrap-input100 {
   width: 100%;
   position: relative;
@@ -333,6 +344,16 @@ iframe {
   position: relative;
   padding: 10px 2px 9px 2px;
   margin-bottom: 20px;
+}
+
+.wrap-input100_login_button{
+  width: 50%;
+  position: relative;
+  top: 50%;
+  left:50%;
+  padding: 10px 2px 9px 2px;
+  margin-bottom: 20px;	
+  transform: translate(-50%, -50%);
 }
 
 .rs1-wrap-input100 {
