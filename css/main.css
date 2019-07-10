@@ -380,6 +380,16 @@ iframe {
   padding-right: 15px;
 }
 
+.input100-textarea {
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-family: Montserrat-SemiBold;
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.5;
+  padding-right: 15px;
+}
 
 /*---------------------------------------------*/
 input.input100 {

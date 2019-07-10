@@ -128,10 +128,11 @@
 						<span id="result" class="wrap-input100_confirm rs1-wrap-input100"></span>
 					<!--</div>-->
 				<div style="height:698px;"> </div>
+					
 				<div style="align-self: flex-end;" class="wrap-input100_confirm rs1-wrap-input100">
-					<button class="contact100-form-btn" id="confirm">
+					<button class="contact100-form-btn" id="retrieve_info">
 						<span>
-							Push Request
+							Retrieve Information
 							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
 						</span>
 					</button>
@@ -283,21 +284,21 @@
 
 					<div class="wrap-input100 validate-input bg1">
 						<div>
-							<span class="label-input100">Allow Substitute Role</span>
-							<input class="input100" type="checkbox" name="sub" id="sub">
+							<span class="label-input100" for="sub">Allow Substitute Role</span>
+							<input class="input100" type="checkbox" name="sub" id="sub" checked="false">
+							
 						</div>
 					</div>
 
 
 					<div class="wrap-input100_confirm rs1-wrap-input100">
-						<button class="contact100-form-btn" id="confirm1">
+						<button class="contact100-form-btn" id="confirm">
 							<span>
-								Retrieve Information
+								Push Request
 								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
 							</span>
 						</button>
 					</div>
-					
 				</form>
 				
 
@@ -337,16 +338,7 @@
 				
 				<div>
 					<span class="left_span">
-						<div class="wrap-input100_confirm rs1-wrap-input100">
-							<button onclick="page_handling()" class="contact100-form-btn" id="confirm">
-								<span>
-									Push Request
-									<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-								</span>
-							</button>
-						</div>
-					</span>
-					<span class="right_span">
+
 						<div class="wrap-input100_confirm rs1-wrap-input100">
 							<button class="contact100-form-btn" id="review1">
 								<span>
@@ -355,6 +347,17 @@
 								</span>
 							</button>
 						</div>
+					</span>
+					<span class="right_span">
+						<div class="wrap-input100_confirm rs1-wrap-input100">
+							<button onclick="page_handling()" class="contact100-form-btn" id="confirm">
+								<span>
+									Push Request
+									<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+								</span>
+							</button>
+						</div>
+
 					</span>
 				</div>
 				
@@ -372,16 +375,16 @@
 		
 		  var project_id = document.getElementById('project_id').value;
 
-		  if(project_id=="111"){
+		  if(project_id=="10001"){
 
-			  document.getElementById('start_date').value = "12.01.2020";
-			  document.getElementById('start_date').style.color = "black";
+			  document.getElementById('start_date').value = "01.09.2019";
+			  document.getElementById('start_date').style.color = "red";
 			  document.getElementById('role_title').value = "Developer";
 			  //document.getElementById('role_title').style.color = red;
 			  document.getElementById('role_title').style.color = "red";
 			  document.getElementById('loc').value = "Toronto";
-			  document.getElementById('win_prob').value = "90%";
-			  document.getElementById('win_prob').style.color = "black";
+			  document.getElementById('win_prob').value = "60%";
+			  document.getElementById('win_prob').style.color = "red";
 			  document.getElementById('sold').value = "No";
 			  document.getElementById('talent_segment').value = "Software Engineering";
 			  document.getElementById('expertise').value = "IT Strat & Transformation";
@@ -390,8 +393,8 @@
 			  document.getElementById('skill2').value = "Spring Framework";
 			  document.getElementById('skill3').value = "Oracle BEA Portal Tools";
 			  document.getElementById('amount').value = 5;
-			  document.getElementById('cost_rate').value = 85;
-			  document.getElementById('cost_rate').style.color = "black";
+			  document.getElementById('cost_rate').value = 45;
+			  document.getElementById('cost_rate').style.color = "red";
 			  
 			  /*start_date = document.forms[0].elements['start_date'];
 			  start_date.value = "12.01.2020";
@@ -405,10 +408,10 @@
 			  sold = document.forms[0].elements['sold'];
 			  sold.value = "No";*/
 			}
-		  else if(project_id=="222"){
-			  document.getElementById('start_date').value = "12.11.2019";
-			  document.getElementById('start_date').style.color = "red";
-			  document.getElementById('role_title').value = "SAP HANA Developer";
+		  else if(project_id=="10002"){
+			  document.getElementById('start_date').value = "01.12.2020";
+			  document.getElementById('start_date').style.color = "black";
+			  document.getElementById('role_title').value = "SAP ABAP Developer";
 			  document.getElementById('role_title').style.color = "black";
 			  document.getElementById('loc').value = "Toronto";
 			  document.getElementById('win_prob').value = "90%";
@@ -421,7 +424,7 @@
 			  document.getElementById('skill2').value = "SAP HANA SQL Scripts Development";
 			  document.getElementById('skill3').value = "SAP HANA Technical Architecture";
 			  document.getElementById('amount').value = 5;
-			  document.getElementById('cost_rate').value = 85;
+			  document.getElementById('cost_rate').value = 75;
 			  document.getElementById('cost_rate').style.color = "black";
 		  }
 		else if(project_id=="333"){
@@ -462,7 +465,7 @@
 			  document.getElementById('cost_rate').value = 40;
 			  document.getElementById('cost_rate').style.color = "red";
 		}
-		else if(project_id=="000"){
+		else if(project_id=="10003"){
 			  document.getElementById('start_date').value = "12.01.2020";
 			  document.getElementById('start_date').style.color = "black";
 			  document.getElementById('role_title').value = "SAP ABAP Developer";
@@ -476,9 +479,9 @@
 			  document.getElementById('career_track').value = "Client & Market";
 			  document.getElementById('skill1').value = "SAP ABAP Development";
 			  document.getElementById('skill2').value = "SAP Master Data Migration";
-			  document.getElementById('skill3').value = "SAP NetWeaver Composite App Design & Development";
+			  document.getElementById('skill3').value = "SAP NetWeaver Composite App Design";  // & Development
 			  document.getElementById('amount').value = 5;
-			  document.getElementById('cost_rate').value = 40;
+			  document.getElementById('cost_rate').value = 85;
 			  document.getElementById('cost_rate').style.color = "black";
 		}
 		else{
@@ -523,8 +526,8 @@
 
 			var project_id = document.getElementById('project_id').value;
 			
-			if(project_id=="111"){    // budget==15000 && workforce=="Java Developer"
-				document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The role description you just typed in its insufficient to give accurate results. Please be more specific.</p>";
+			if(project_id=="10001"){    // budget==15000 && workforce=="Java Developer"
+				document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The role description you just typed in its insufficient to give accurate results. Please be more specific.</p><p>Warning:</p><p>Warning:</p><p>Warning:</p>";
 			}
 			else if(project_id=="222"){
 				document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The project start date is below 60 days which could lead to potential waiting times in the required workforce. Please edit the value or continue anyway with the disclaimer that the required skill could not be found before the project start.creen reader support enabled. To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash </p>";
@@ -535,12 +538,20 @@
 			else if(project_id=="444"){
 				document.getElementById('result_on_modal').innerHTML = "<p"+" >Warning: The loaded cost rate you just typed in does not match any markets rates for that particular skill.</p>";
 			}
-			else if(project_id=="000"){
+			else if(project_id=="10003"){
 				//document.getElementById('result_on_modal').innerHTML = "<p"+" >All good!</p>";
-				window.location.href = "dash.html";
+				window.location.href = "hm_view_dash.html";
 			}
 			else{
 				document.getElementById('result_on_modal').innerHTML = "";
+			}
+		}
+		
+		ret_btn = document.getElementById("retrieve_info");
+		ret_btn.onclick = function(){
+			var project_id = document.getElementById('project_id').value;
+			if(project_id=="10002"){
+				window.location.href = "info_dash.html"
 			}
 		}
 
@@ -565,7 +576,7 @@
 	<script>
 		function page_handling(){
 			var project_id = document.getElementById('project_id').value;
-			if(project_id == "111"){
+			if(project_id == "10003"){
 				window.location.href = 'dash.html';
 			}
 			else if(project_id=="222"){
